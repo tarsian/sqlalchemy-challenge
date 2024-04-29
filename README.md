@@ -23,7 +23,8 @@ In this section, you’ll use Python and SQLAlchemy to do a basic climate analys
   4. Load the query results into a Pandas DataFrame. Explicitly set the column names.
   5. Sort the DataFrame values by "date".
   6. Plot the results by using the DataFrame plot method, as the following image shows:
-     (plot image)
+     ![image](https://github.com/tarsian/sqlalchemy-challenge/assets/24801648/0d70d5ce-219f-4219-8a5b-72d02080de8d)
+
   7. Use Pandas to print the summary statistics for the precipitation data.
 
 ### Station Analysis
@@ -36,7 +37,8 @@ In this section, you’ll use Python and SQLAlchemy to do a basic climate analys
      - Filter by the station that has the greatest number of observations.
      - Query the previous 12 months of TOBS data for that station.
      - Plot the results as a histogram with bins=12, as the following image shows:
-       (image barchart)
+       ![image](https://github.com/tarsian/sqlalchemy-challenge/assets/24801648/616d1981-c53b-4340-a06f-d46c7ac71b30)
+
   5. Close your session.
 
 ## Part 2: Design Your Climate App
